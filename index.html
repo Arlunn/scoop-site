@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoop - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #131620;
+            color: #f0f1f5;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        h1 span { color: #6c5ce7; }
+        .effective { color: #8b90a5; font-size: 0.9rem; margin-bottom: 40px; }
+        h2 {
+            font-size: 1.2rem;
+            margin-top: 36px;
+            margin-bottom: 12px;
+            color: #f0f1f5;
+        }
+        p, li { color: #c0c3d0; font-size: 1rem; margin-bottom: 12px; }
+        ul { padding-left: 24px; margin-bottom: 16px; }
+        li { margin-bottom: 6px; }
+        strong { color: #f0f1f5; }
+        a { color: #6c5ce7; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .divider {
+            border: none;
+            border-top: 1px solid #2a2f42;
+            margin: 36px 0;
+        }
+        .footer { color: #5a5f75; font-size: 0.85rem; margin-top: 48px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span>Scoop</span> Privacy Policy</h1>
+        <p class="effective">Effective date: March 13, 2026</p>
+
+        <p>Scoop ("the app") is a personal daily news briefing app developed by Zeke. This policy explains what information the app collects, how it is used, and your choices.</p>
+
+        <h2>Information We Collect</h2>
+        <p>Scoop collects the minimum data needed to deliver your personalized news briefing:</p>
+        <ul>
+            <li><strong>Device Identifier:</strong> An anonymous UUID generated and stored locally on your device. This identifier is not linked to your Apple ID, name, email, or any personal information. It is used solely to associate your selected topics and feed with your device.</li>
+            <li><strong>Coarse Location (City):</strong> If you grant location permission, the app determines your city name to personalize local news topics. Only the city name is sent to our servers — not your precise coordinates. Location access is optional.</li>
+            <li><strong>Selected Topics:</strong> The news topics you choose to follow (e.g., "Technology", "Sports") are stored on our servers to generate your daily briefing.</li>
+            <li><strong>Blocked Sources:</strong> If you choose to block specific news sources, those preferences are stored on our servers to filter your feed.</li>
+        </ul>
+
+        <h2>Information We Do Not Collect</h2>
+        <ul>
+            <li>Name, email address, or phone number</li>
+            <li>Apple ID or any login credentials</li>
+            <li>Precise GPS coordinates</li>
+            <li>Browsing history or reading behavior</li>
+            <li>Contacts, photos, or other device data</li>
+            <li>Payment or financial information</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <ul>
+            <li><strong>Content Generation:</strong> Your selected topics and city (if provided) are used to generate AI-powered news summaries tailored to your interests.</li>
+            <li><strong>Feed Delivery:</strong> Your device identifier is used to store and retrieve your personalized feed.</li>
+            <li><strong>Content Filtering:</strong> Blocked sources and words are applied server-side to exclude unwanted content from your feed.</li>
+        </ul>
+        <p>We do not use your data for advertising, analytics, profiling, or cross-app tracking.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>Scoop relies on the following third-party services to operate:</p>
+        <ul>
+            <li><strong>Supabase:</strong> Cloud database and serverless functions. Stores device records, topics, and generated content. <a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
+            <li><strong>Google Gemini:</strong> AI model used server-side to generate news summaries with web search grounding. Your topics and city may be included in prompts sent to the Gemini API. No device identifier is sent to Google. <a href="https://ai.google.dev/terms">Google AI Terms</a></li>
+            <li><strong>OneSignal:</strong> Used for silent push notifications to refresh your feed in the background. <a href="https://onesignal.com/privacy_policy">OneSignal Privacy Policy</a></li>
+        </ul>
+        <p>No data is sold to or shared with any third parties for advertising or marketing purposes.</p>
+
+        <h2>Data Retention</h2>
+        <ul>
+            <li><strong>Feed content</strong> is refreshed approximately every 12 hours. Old content is replaced with each refresh.</li>
+            <li><strong>Device records and topic preferences</strong> persist while the app is installed. Inactive devices (no app activity for 30+ days) may have their data cleaned up automatically.</li>
+            <li><strong>Content cache</strong> entries expire after 2 hours and are cleaned up automatically.</li>
+        </ul>
+
+        <h2>Data Security</h2>
+        <p>All communication between the app and our servers uses HTTPS encryption. Database access is protected by row-level security policies, ensuring each device can only access its own data.</p>
+
+        <h2>Your Choices</h2>
+        <ul>
+            <li><strong>Location:</strong> You can deny or revoke location permission at any time in iOS Settings. The app will function without it — you simply won't receive localized news.</li>
+            <li><strong>Topics:</strong> You can add or remove topics at any time within the app.</li>
+            <li><strong>Blocked Sources:</strong> You can block or unblock news sources at any time.</li>
+            <li><strong>Delete Your Data:</strong> Uninstalling the app removes all local data. To request deletion of your server-side data, contact us at the email below.</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>Scoop is not directed at children under 13. We do not knowingly collect information from children under 13. If you believe a child has provided us with data, please contact us and we will delete it.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated effective date.</p>
+
+        <h2>Contact</h2>
+        <p>If you have questions about this privacy policy or want to request data deletion, contact us at:</p>
+        <p><a href="mailto:ezehat@gmail.com">ezehat@gmail.com</a></p>
+
+        <hr class="divider">
+        <p class="footer">Scoop displays AI-generated news summaries. Tap source links within the app for full original reporting.</p>
+    </div>
+</body>
+</html>
