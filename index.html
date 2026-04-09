@@ -46,7 +46,7 @@
 <body>
     <div class="container">
         <h1><span>Scoop</span> Privacy Policy</h1>
-        <p class="effective">Effective date: March 13, 2026</p>
+        <p class="effective">Effective date: April 9, 2026</p>
 
         <p>Scoop ("the app") is a personal daily news briefing app developed by Zeke. This policy explains what information the app collects, how it is used, and your choices.</p>
 
@@ -57,6 +57,7 @@
             <li><strong>Coarse Location (City):</strong> If you grant location permission, the app determines your city name to personalize local news topics. Only the city name is sent to our servers — not your precise coordinates. Location access is optional.</li>
             <li><strong>Selected Topics:</strong> The news topics you choose to follow (e.g., "Technology", "Sports") are stored on our servers to generate your daily briefing.</li>
             <li><strong>Blocked Sources:</strong> If you choose to block specific news sources, those preferences are stored on our servers to filter your feed.</li>
+            <li><strong>Weather Data:</strong> If location permission is granted, the app fetches current weather conditions (temperature, forecast) via Apple WeatherKit to display in your widgets. This data stays on your device and is not sent to our servers.</li>
         </ul>
 
         <h2>Information We Do Not Collect</h2>
@@ -81,8 +82,10 @@
         <p>Scoop relies on the following third-party services to operate:</p>
         <ul>
             <li><strong>Supabase:</strong> Cloud database and serverless functions. Stores device records, topics, and generated content. <a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
-            <li><strong>Google Gemini:</strong> AI model used server-side to generate news summaries with web search grounding. Your topics and city may be included in prompts sent to the Gemini API. No device identifier is sent to Google. <a href="https://ai.google.dev/terms">Google AI Terms</a></li>
-            <li><strong>OneSignal:</strong> Used for silent push notifications to refresh your feed in the background. <a href="https://onesignal.com/privacy_policy">OneSignal Privacy Policy</a></li>
+            <li><strong>Perplexity Sonar:</strong> AI search provider used server-side to generate news summaries for mainstream news topics. Your selected topics and city may be included in prompts sent to Perplexity's API. No device identifier is sent to Perplexity. <a href="https://www.perplexity.ai/privacy">Perplexity Privacy Policy</a></li>
+            <li><strong>Google Gemini:</strong> AI model used server-side to generate news summaries for niche topics, with web search grounding. Your topics and city may be included in prompts sent to the Gemini API. No device identifier is sent to Google. <a href="https://ai.google.dev/terms">Google AI Terms</a></li>
+            <li><strong>Apple WeatherKit:</strong> Used to fetch current weather conditions for widget display. Weather data is obtained directly from Apple and stays on your device. <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
+            <li><strong>OneSignal:</strong> Used for silent background push notifications to refresh your feed. Your device's APNs token is automatically registered with OneSignal on each app launch — no notification permission prompt is required for silent pushes. <a href="https://onesignal.com/privacy_policy">OneSignal Privacy Policy</a></li>
         </ul>
         <p>No data is sold to or shared with any third parties for advertising or marketing purposes.</p>
 
